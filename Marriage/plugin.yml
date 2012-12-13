@@ -1,0 +1,8 @@
+name: Marriage
+version: 0.1
+main: com.tehgamingcrew.bukkit.Marriage.Marriage
+commands:
+  love:
+    description: Toggle love mode
+    usage: |
+           /<command> [TargetPlayer] [x=10] - Fall in love for x seconds, -1 means infinity
