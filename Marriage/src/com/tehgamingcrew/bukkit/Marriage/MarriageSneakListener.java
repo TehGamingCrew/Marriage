@@ -37,6 +37,7 @@ public class MarriageSneakListener implements Listener {
         return target;
     }
 	
+    //Handles onPlayerSneak
 	@EventHandler(priority = EventPriority.HIGH)
 	public void onPlayerSneak(PlayerToggleSneakEvent event) {
 		
