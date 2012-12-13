@@ -16,6 +16,7 @@ public class Marriage extends JavaPlugin {
 		this.logMessage("Enabled.");
 		PluginManager manager = this.getServer().getPluginManager();
 		
+		//listeners
 		manager.registerEvents(new MarriageSneakListener(), this);
 	}
 
